@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Google.Protobuf.Compiler;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,21 @@ namespace gestLivres
         public formLivres()
         {
             InitializeComponent();
+        }
+
+        private void formLivres_Load(object sender, EventArgs e)
+        {
+            Refresh();
+        }
+
+        private void Refresh()
+        {
+            lstLivres.Items.Clear();
+
+            foreach (Livre p in Database.GetLivres())
+            {
+                lstLivres.Items.Add(p);
+            }
         }
     }
 }

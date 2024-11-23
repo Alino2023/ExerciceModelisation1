@@ -54,6 +54,7 @@
             btnCategories.TabIndex = 2;
             btnCategories.Text = "Catégories de livres";
             btnCategories.UseVisualStyleBackColor = true;
+            btnCategories.Click += btnCategories_Click;
             // 
             // btnAuteurs
             // 
@@ -63,6 +64,7 @@
             btnAuteurs.TabIndex = 1;
             btnAuteurs.Text = "Les Auteurs";
             btnAuteurs.UseVisualStyleBackColor = true;
+            btnAuteurs.Click += btnAuteurs_Click;
             // 
             // btnLivres
             // 
@@ -72,6 +74,7 @@
             btnLivres.TabIndex = 0;
             btnLivres.Text = "Nos Livres";
             btnLivres.UseVisualStyleBackColor = true;
+            btnLivres.Click += btnLivres_Click;
             // 
             // formMenu
             // 
@@ -80,6 +83,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(panelMenu);
             Name = "formMenu";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Accueil";
             panelMenu.ResumeLayout(false);
             ResumeLayout(false);

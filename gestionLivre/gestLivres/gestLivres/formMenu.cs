@@ -16,5 +16,23 @@ namespace gestLivres
         {
             InitializeComponent();
         }
+
+        private void btnLivres_Click(object sender, EventArgs e)
+        {
+            Form formLivre = new formLivres();
+            formLivre.ShowDialog();
+        }
+
+        private void btnAuteurs_Click(object sender, EventArgs e)
+        {
+            Form formAuteur = new formAuteurs();
+            formAuteur.ShowDialog();
+        }
+
+        private void btnCategories_Click(object sender, EventArgs e)
+        {
+            Form formCategorie = new formCategories();
+            formCategorie.ShowDialog();
+        }
     }
 }

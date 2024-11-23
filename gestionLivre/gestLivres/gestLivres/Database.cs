@@ -1,15 +1,10 @@
 ﻿using MySql.Data.MySqlClient;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace gestLivres
 {
     internal static class Database
     {
-        private static string connectionString = "server=localhost; database=db_livres;uid=appUser: pwd=P@sssw0rd";
+        private static string connectionString = "server=localhost; database=bd_livres; uid=appBiblio; pwd=Passsw0rd";
 
         private static List<Categorie> GetCategorie()
         {
@@ -54,18 +49,27 @@ namespace gestLivres
                     using MySqlDataReader reader = myCommand.ExecuteReader();
                     while (reader.Read())
                     {
-                        //personnes.Add(((string)reader["prenom"]) + " " + ((string)reader["nom"]));
-                        //livres.Add($"{(string)reader["isbn"]}{(string)reader["titre"]} {(string)reader["description"]}");
-                        livres.Add(
+                        if (currentId != (int)reader["id_livre"])
+                        {
+                            livres.Add(
+
                             new()
                             {
+                                Id_livre = (int)reader["Id_livre"],
                                 Isbn = (string)reader["isbn"],
                                 Titre = (string)reader["titre"],
-                                Description = (string)reader["description"]
+                                Description = (string)reader["Description"]
                             }
                             );
-                        currentId = (int)reader["isbn"];
+                        }
+
+                        currentId = (int)reader["id_livre"];
                     }
+                    //if (reader["id_categorie"].GetType() != typeof(DBNull))
+                    //{
+                    //    Id_categorie = (int)reader["id_categorie"]
+
+                    //});
                 }
                 sqlConnection.Close();
             }

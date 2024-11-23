@@ -9,8 +9,8 @@ namespace gestLivres
 
         private void btnListeLivres_Click(object sender, EventArgs e)
         {
-            formLivre formLivre = new formLivre();
-            formLivre.ShowDialog();
+            Form formLivres = new Form();
+            formLivres.ShowDialog();
         }
     }
 }
