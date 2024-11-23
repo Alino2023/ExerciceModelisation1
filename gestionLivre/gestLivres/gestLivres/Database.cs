@@ -38,13 +38,18 @@ namespace gestLivres
             return categories;
         }
 
-        private static List<Livre> GetLivres()
+        internal static List<Livre> GetLivres()
         {
             List<Livre> livres = new();
+            int currentId = -1;
             using (MySqlConnection sqlConnection = new(connectionString))
             {
                 sqlConnection.Open();
-                using (MySqlCommand myCommand = new("select isbn, titre, description from livre", sqlConnection))
+                using (MySqlCommand myCommand = new(@"select livre.isbn, livre.titre, livre.description , categorie.nom_categorie nom_categorie, auteur.nom, auteur.prenom
+                           from livre
+                          inner join categorie on categorie.id_categorie = livre.id_categorie
+                          inner join auteur on auteur.id_auteur = livre.id_auteur ;",
+                    sqlConnection))
                 {
                     using MySqlDataReader reader = myCommand.ExecuteReader();
                     while (reader.Read())
@@ -59,6 +64,7 @@ namespace gestLivres
                                 Description = (string)reader["description"]
                             }
                             );
+                        currentId = (int)reader["isbn"];
                     }
                 }
                 sqlConnection.Close();

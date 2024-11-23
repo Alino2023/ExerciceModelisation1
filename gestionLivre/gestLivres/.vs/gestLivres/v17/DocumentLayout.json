@@ -1,38 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dogbe\\OneDrive - Cegep Beauce-Appalaches\\Mes Etudes au Canada\\Automne 2024\\420-3A2-BA-MODELISATION BD\\Semaine 11\\gestionLivre\\gestLivres\\",
+  "WorkspaceRootPath": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|C:\\Users\\dogbe\\OneDrive - Cegep Beauce-Appalaches\\Mes Etudes au Canada\\Automne 2024\\420-3A2-BA-MODELISATION BD\\Semaine 11\\gestionLivre\\gestLivres\\gestlivres\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|c:\\users\\dogbe\\onedrive - cegep beauce-appalaches\\mes etudes au canada\\automne 2024\\420-3a2-ba-modelisation bd\\semaine 11\\gestionlivre\\gestlivres\\gestlivres\\formlivre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\formlivre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|c:\\users\\dogbe\\onedrive - cegep beauce-appalaches\\mes etudes au canada\\automne 2024\\420-3a2-ba-modelisation bd\\semaine 11\\gestionlivre\\gestlivres\\gestlivres\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|C:\\Users\\dogbe\\OneDrive - Cegep Beauce-Appalaches\\Mes Etudes au Canada\\Automne 2024\\420-3A2-BA-MODELISATION BD\\Semaine 11\\gestionLivre\\gestLivres\\gestlivres\\formlivre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestlivres\\formlivre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\formlivre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|c:\\users\\dogbe\\onedrive - cegep beauce-appalaches\\mes etudes au canada\\automne 2024\\420-3a2-ba-modelisation bd\\semaine 11\\gestionlivre\\gestlivres\\gestlivres\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\formlivre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\formlivre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|c:\\users\\dogbe\\onedrive - cegep beauce-appalaches\\mes etudes au canada\\automne 2024\\420-3a2-ba-modelisation bd\\semaine 11\\gestionlivre\\gestlivres\\gestlivres\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|c:\\users\\dogbe\\onedrive - cegep beauce-appalaches\\mes etudes au canada\\automne 2024\\420-3a2-ba-modelisation bd\\semaine 11\\gestionlivre\\gestlivres\\gestlivres\\auteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\auteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\auteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|c:\\users\\dogbe\\onedrive - cegep beauce-appalaches\\mes etudes au canada\\automne 2024\\420-3a2-ba-modelisation bd\\semaine 11\\gestionlivre\\gestlivres\\gestlivres\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,11 +58,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "formLivre.cs [Conception]",
-              "DocumentMoniker": "C:\\Users\\dogbe\\OneDrive - Cegep Beauce-Appalaches\\Mes Etudes au Canada\\Automne 2024\\420-3A2-BA-MODELISATION BD\\Semaine 11\\gestionLivre\\gestLivres\\gestLivres\\formLivre.cs",
+              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formLivre.cs",
               "RelativeDocumentMoniker": "gestLivres\\formLivre.cs",
-              "ToolTip": "C:\\Users\\dogbe\\OneDrive - Cegep Beauce-Appalaches\\Mes Etudes au Canada\\Automne 2024\\420-3A2-BA-MODELISATION BD\\Semaine 11\\gestionLivre\\gestLivres\\gestLivres\\formLivre.cs [Conception]",
+              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formLivre.cs [Conception]",
               "RelativeToolTip": "gestLivres\\formLivre.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T08:34:04.839Z",
@@ -72,84 +72,87 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "formLivre.cs",
-              "DocumentMoniker": "C:\\Users\\dogbe\\OneDrive - Cegep Beauce-Appalaches\\Mes Etudes au Canada\\Automne 2024\\420-3A2-BA-MODELISATION BD\\Semaine 11\\gestionLivre\\gestLivres\\gestLivres\\formLivre.cs",
+              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formLivre.cs",
               "RelativeDocumentMoniker": "gestLivres\\formLivre.cs",
-              "ToolTip": "C:\\Users\\dogbe\\OneDrive - Cegep Beauce-Appalaches\\Mes Etudes au Canada\\Automne 2024\\420-3A2-BA-MODELISATION BD\\Semaine 11\\gestionLivre\\gestLivres\\gestLivres\\formLivre.cs",
+              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formLivre.cs",
               "RelativeToolTip": "gestLivres\\formLivre.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBMAAAArAAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAAtwEgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T08:18:29.034Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\dogbe\\OneDrive - Cegep Beauce-Appalaches\\Mes Etudes au Canada\\Automne 2024\\420-3A2-BA-MODELISATION BD\\Semaine 11\\gestionLivre\\gestLivres\\gestLivres\\Form1.cs",
+              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Form1.cs",
               "RelativeDocumentMoniker": "gestLivres\\Form1.cs",
-              "ToolTip": "C:\\Users\\dogbe\\OneDrive - Cegep Beauce-Appalaches\\Mes Etudes au Canada\\Automne 2024\\420-3A2-BA-MODELISATION BD\\Semaine 11\\gestionLivre\\gestLivres\\gestLivres\\Form1.cs",
+              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Form1.cs",
               "RelativeToolTip": "gestLivres\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T08:13:46.463Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Categorie.cs",
-              "DocumentMoniker": "C:\\Users\\dogbe\\OneDrive - Cegep Beauce-Appalaches\\Mes Etudes au Canada\\Automne 2024\\420-3A2-BA-MODELISATION BD\\Semaine 11\\gestionLivre\\gestLivres\\gestLivres\\Categorie.cs",
+              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Categorie.cs",
               "RelativeDocumentMoniker": "gestLivres\\Categorie.cs",
-              "ToolTip": "C:\\Users\\dogbe\\OneDrive - Cegep Beauce-Appalaches\\Mes Etudes au Canada\\Automne 2024\\420-3A2-BA-MODELISATION BD\\Semaine 11\\gestionLivre\\gestLivres\\gestLivres\\Categorie.cs",
+              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Categorie.cs",
               "RelativeToolTip": "gestLivres\\Categorie.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T07:35:46.001Z"
+              "WhenOpened": "2024-11-21T07:35:46.001Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Auteur.cs",
-              "DocumentMoniker": "C:\\Users\\dogbe\\OneDrive - Cegep Beauce-Appalaches\\Mes Etudes au Canada\\Automne 2024\\420-3A2-BA-MODELISATION BD\\Semaine 11\\gestionLivre\\gestLivres\\gestLivres\\Auteur.cs",
+              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Auteur.cs",
               "RelativeDocumentMoniker": "gestLivres\\Auteur.cs",
-              "ToolTip": "C:\\Users\\dogbe\\OneDrive - Cegep Beauce-Appalaches\\Mes Etudes au Canada\\Automne 2024\\420-3A2-BA-MODELISATION BD\\Semaine 11\\gestionLivre\\gestLivres\\gestLivres\\Auteur.cs",
+              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Auteur.cs",
               "RelativeToolTip": "gestLivres\\Auteur.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T07:33:48.215Z"
+              "WhenOpened": "2024-11-21T07:33:48.215Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Livre.cs",
-              "DocumentMoniker": "C:\\Users\\dogbe\\OneDrive - Cegep Beauce-Appalaches\\Mes Etudes au Canada\\Automne 2024\\420-3A2-BA-MODELISATION BD\\Semaine 11\\gestionLivre\\gestLivres\\gestLivres\\Livre.cs",
+              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Livre.cs",
               "RelativeDocumentMoniker": "gestLivres\\Livre.cs",
-              "ToolTip": "C:\\Users\\dogbe\\OneDrive - Cegep Beauce-Appalaches\\Mes Etudes au Canada\\Automne 2024\\420-3A2-BA-MODELISATION BD\\Semaine 11\\gestionLivre\\gestLivres\\gestLivres\\Livre.cs",
+              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Livre.cs",
               "RelativeToolTip": "gestLivres\\Livre.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T07:27:58.703Z"
+              "WhenOpened": "2024-11-21T07:27:58.703Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Database.cs",
-              "DocumentMoniker": "C:\\Users\\dogbe\\OneDrive - Cegep Beauce-Appalaches\\Mes Etudes au Canada\\Automne 2024\\420-3A2-BA-MODELISATION BD\\Semaine 11\\gestionLivre\\gestLivres\\gestLivres\\Database.cs",
+              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Database.cs",
               "RelativeDocumentMoniker": "gestLivres\\Database.cs",
-              "ToolTip": "C:\\Users\\dogbe\\OneDrive - Cegep Beauce-Appalaches\\Mes Etudes au Canada\\Automne 2024\\420-3A2-BA-MODELISATION BD\\Semaine 11\\gestionLivre\\gestLivres\\gestLivres\\Database.cs",
+              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Database.cs",
               "RelativeToolTip": "gestLivres\\Database.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAYwFIAAABFAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAIAwwCgAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T04:51:57.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Conception]",
-              "DocumentMoniker": "C:\\Users\\dogbe\\OneDrive - Cegep Beauce-Appalaches\\Mes Etudes au Canada\\Automne 2024\\420-3A2-BA-MODELISATION BD\\Semaine 11\\gestionLivre\\gestLivres\\gestLivres\\Form1.cs",
+              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Form1.cs",
               "RelativeDocumentMoniker": "gestLivres\\Form1.cs",
-              "ToolTip": "C:\\Users\\dogbe\\OneDrive - Cegep Beauce-Appalaches\\Mes Etudes au Canada\\Automne 2024\\420-3A2-BA-MODELISATION BD\\Semaine 11\\gestionLivre\\gestLivres\\gestLivres\\Form1.cs [Conception]",
+              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Form1.cs [Conception]",
               "RelativeToolTip": "gestLivres\\Form1.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T04:46:42.041Z",
