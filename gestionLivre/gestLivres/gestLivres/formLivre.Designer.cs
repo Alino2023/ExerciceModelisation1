@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             tabControlBibliotheque = new TabControl();
             tabLivres = new TabPage();
             btnAjoutLivre = new Button();
@@ -35,6 +37,7 @@
             lstLivres = new ListBox();
             tabAuteurs = new TabPage();
             tabCategories = new TabPage();
+            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             tabControlBibliotheque.SuspendLayout();
             tabLivres.SuspendLayout();
             SuspendLayout();
@@ -44,7 +47,7 @@
             tabControlBibliotheque.Controls.Add(tabLivres);
             tabControlBibliotheque.Controls.Add(tabAuteurs);
             tabControlBibliotheque.Controls.Add(tabCategories);
-            tabControlBibliotheque.Location = new Point(8, 11);
+            tabControlBibliotheque.Location = new Point(12, 12);
             tabControlBibliotheque.Name = "tabControlBibliotheque";
             tabControlBibliotheque.SelectedIndex = 0;
             tabControlBibliotheque.Size = new Size(788, 438);
@@ -52,6 +55,7 @@
             // 
             // tabLivres
             // 
+            tabLivres.Controls.Add(guna2Button1);
             tabLivres.Controls.Add(btnAjoutLivre);
             tabLivres.Controls.Add(txtLivre);
             tabLivres.Controls.Add(lstLivres);
@@ -109,6 +113,22 @@
             tabCategories.UseVisualStyleBackColor = true;
             tabCategories.Click += tabCategories_Click;
             // 
+            // guna2Button1
+            // 
+            guna2Button1.CustomizableEdges = customizableEdges1;
+            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button1.Font = new Font("Segoe UI", 9F);
+            guna2Button1.ForeColor = Color.White;
+            guna2Button1.Location = new Point(403, 25);
+            guna2Button1.Name = "guna2Button1";
+            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            guna2Button1.Size = new Size(225, 56);
+            guna2Button1.TabIndex = 3;
+            guna2Button1.Text = "guna2Button1";
+            // 
             // formLivre
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -132,5 +152,6 @@
         private TabPage tabCategories;
         private Button btnAjoutLivre;
         private TextBox txtLivre;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }
