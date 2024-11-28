@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace gestLivres
 {
-    internal static class Database
+    public static class Database
     {
         private static string connectionString = "server=localhost; database=bd_livres; uid=appLivre; pwd=Passsw0rd";
 
@@ -69,6 +69,25 @@ namespace gestLivres
                 sqlConnection.Close();
             }
             return livres;
+        }
+
+        internal static void AjoutLivre(Livre livre)
+        {
+            using (MySqlConnection sqlConnection = new(connectionString))
+            {
+                sqlConnection.Open();
+
+                using (MySqlCommand cmd = new("INSERT INTO Livre (isbn, titre, description, id_categorie, id_auteur) VALUES (@isbn, @titre, @description, @id_categorie, @id_auteur)", sqlConnection))
+                {
+                    cmd.Parameters.Add(new MySqlParameter("@isbn", livre.Isbn));
+                    cmd.Parameters.Add(new MySqlParameter("@titre", livre.Titre));
+                    cmd.Parameters.Add(new MySqlParameter("@description", livre.Description));
+
+                    cmd.ExecuteNonQuery();
+                }
+
+                sqlConnection.Close();
+            }
         }
 
         internal static List<Auteur> GetAuteur()
