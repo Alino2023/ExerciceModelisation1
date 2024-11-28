@@ -20,10 +20,9 @@ namespace gestLivres
 
         private void formMAJLivres_Load(object sender, EventArgs e)
         {
-            RefreshLivres();
-
-            lstCategories.DisplayMember = "Titre";
-            lstCategories.ValueMember = "Id_livre";
+            RefreshCategorie();
+            lstCategories.DisplayMember = "Nom_Categorie";
+            lstCategories.ValueMember = "Id_categorie";
         }
 
         private void RefreshLivres()

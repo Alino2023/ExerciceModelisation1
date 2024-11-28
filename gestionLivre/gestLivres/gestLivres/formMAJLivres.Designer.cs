@@ -126,6 +126,7 @@
             Controls.Add(gbListerCategories);
             Controls.Add(gbModifierSupprimerLivre);
             Name = "formMAJLivres";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "formMAJLivres";
             Load += formMAJLivres_Load;
             gbModifierSupprimerLivre.ResumeLayout(false);

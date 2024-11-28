@@ -120,21 +120,21 @@
             // ajouterToolStripMenuItem
             // 
             ajouterToolStripMenuItem.Name = "ajouterToolStripMenuItem";
-            ajouterToolStripMenuItem.Size = new Size(224, 26);
+            ajouterToolStripMenuItem.Size = new Size(161, 26);
             ajouterToolStripMenuItem.Text = "Ajouter";
             ajouterToolStripMenuItem.Click += ajouterToolStripMenuItem_Click;
             // 
             // modifierToolStripMenuItem
             // 
             modifierToolStripMenuItem.Name = "modifierToolStripMenuItem";
-            modifierToolStripMenuItem.Size = new Size(224, 26);
+            modifierToolStripMenuItem.Size = new Size(161, 26);
             modifierToolStripMenuItem.Text = "Modifier";
             modifierToolStripMenuItem.Click += modifierToolStripMenuItem_Click;
             // 
             // supprimerToolStripMenuItem
             // 
             supprimerToolStripMenuItem.Name = "supprimerToolStripMenuItem";
-            supprimerToolStripMenuItem.Size = new Size(224, 26);
+            supprimerToolStripMenuItem.Size = new Size(161, 26);
             supprimerToolStripMenuItem.Text = "Supprimer";
             // 
             // auteursToolStripMenuItem
@@ -183,6 +183,7 @@
             modifierToolStripMenuItem2.Name = "modifierToolStripMenuItem2";
             modifierToolStripMenuItem2.Size = new Size(224, 26);
             modifierToolStripMenuItem2.Text = "Modifier";
+            modifierToolStripMenuItem2.Click += modifierToolStripMenuItem2_Click;
             // 
             // supprimerToolStripMenuItem2
             // 

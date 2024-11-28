@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -49,8 +50,8 @@ namespace gestLivres
 
         private void modifierToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Form formCategorie = new formCategories();
-            formCategorie.ShowDialog();
+            Form formAuteur = new formAuteurs();
+            formAuteur.ShowDialog();
         }
 
         private void modifierToolStripMenuItem_Click(object sender, EventArgs e)
@@ -60,6 +61,12 @@ namespace gestLivres
         }
 
         private void ajouterToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Form formModLivre = new formMAJLivres();
+            formModLivre.ShowDialog();
+        }
+
+        private void modifierToolStripMenuItem2_Click(object sender, EventArgs e)
         {
             Form formModLivre = new formMAJLivres();
             formModLivre.ShowDialog();
