@@ -69,6 +69,7 @@
             btnAjouterAuteur.TabIndex = 4;
             btnAjouterAuteur.Text = "Ajouter";
             btnAjouterAuteur.UseVisualStyleBackColor = false;
+            btnAjouterAuteur.Click += btnAjouterAuteur_Click;
             // 
             // textBoxAuteur
             // 
@@ -127,6 +128,7 @@
             btnModifierAuteur.TabIndex = 2;
             btnModifierAuteur.Text = "Modifier";
             btnModifierAuteur.UseVisualStyleBackColor = false;
+            btnModifierAuteur.Click += btnModifierAuteur_Click;
             // 
             // txtAuteur
             // 

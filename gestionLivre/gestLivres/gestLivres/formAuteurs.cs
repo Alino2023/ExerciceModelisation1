@@ -33,5 +33,42 @@ namespace gestLivres
                 lstAuteurs.Items.Add(a);
             }
         }
+
+        private string ObtenirPrenomParFullNameAuteur(string FullNameAuteur)
+        {
+            return FullNameAuteur.Substring(0, FullNameAuteur.IndexOf(" "));
+        }
+
+        private string ObtenirNomParFullNameAuteur(string FullNameAuteur)
+        {
+            return FullNameAuteur.Substring(FullNameAuteur.IndexOf(" ") + 1);
+        }
+
+        private void btnAjouterAuteur_Click(object sender, EventArgs e)
+        {
+            Auteur auteur = new()
+            {
+                Prenom = ObtenirPrenomParFullNameAuteur(textBoxAuteur.Text),
+                Nom = ObtenirNomParFullNameAuteur(textBoxAuteur.Text)
+            };
+            Database.AjoutAuteur(auteur);
+            RefreshAuteurs();
+        }
+
+        private void btnModifierAuteur_Click(object sender, EventArgs e)
+        {
+            if (lstAuteurs.SelectedItems != null)
+            {
+                Auteur auteur = lstAuteurs.SelectedItem as Auteur;
+                Auteur ModifierUnAuteur = new()
+                {
+                    Id_Auteur = auteur.Id_Auteur,
+                    Prenom = ObtenirPrenomParFullNameAuteur(txtAuteur.Text),
+                    Nom = ObtenirNomParFullNameAuteur(txtAuteur.Text)
+                };
+                Database.ModifierAuteur(ModifierUnAuteur);
+                RefreshAuteurs();
+            }
+        }
     }
 }

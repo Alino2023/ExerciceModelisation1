@@ -94,5 +94,43 @@ namespace gestLivres
             }
             return auteurs;
         }
+
+        internal static void AjoutAuteur(Auteur auteur)
+        {
+            using (MySqlConnection sqlConnection = new(connectionString))
+            {
+                sqlConnection.Open();
+
+                using (MySqlCommand cmd = new("INSERT INTO Auteur (prenom, nom) VALUES (@prenom, @nom)", sqlConnection))
+                {
+                    cmd.Parameters.Add(new MySqlParameter("@prenom", auteur.Prenom));
+                    cmd.Parameters.Add(new MySqlParameter("@nom", auteur.Nom));
+                    cmd.ExecuteNonQuery();
+                }
+
+                sqlConnection.Close();
+            }
+        }
+
+        internal static void ModifierAuteur(Auteur auteur)
+        {
+            using (MySqlConnection sqlConnection = new(connectionString))
+            {
+                sqlConnection.Open();
+
+                using (MySqlCommand cmd = new(@"UPDATE Auteur set
+                                              prenom=@prenom,
+                                              nom=@nom
+                                              where Id_Auteur = @id", sqlConnection))
+                {
+                    cmd.Parameters.Add(new MySqlParameter("@id", auteur.Id_Auteur));
+                    cmd.Parameters.Add(new MySqlParameter("@prenom", auteur.Prenom));
+                    cmd.Parameters.Add(new MySqlParameter("@nom", auteur.Nom));
+                    cmd.ExecuteNonQuery();
+                }
+
+                sqlConnection.Close();
+            }
+        }
     }
 }
