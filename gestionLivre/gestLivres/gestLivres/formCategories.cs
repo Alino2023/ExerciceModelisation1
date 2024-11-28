@@ -16,5 +16,22 @@ namespace gestLivres
         {
             InitializeComponent();
         }
+
+        private void formCategories_Load(object sender, EventArgs e)
+        {
+            RefreshCategorie();
+            lstCategories.DisplayMember = "Nom_Categorie";
+            lstCategories.ValueMember = "Id_categorie";
+        }
+
+        private void RefreshCategorie()
+        {
+            lstCategories.Items.Clear();
+
+            foreach (Categorie c in Database.GetCategorie())
+            {
+                lstCategories.Items.Add(c);
+            }
+        }
     }
 }

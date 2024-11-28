@@ -16,5 +16,22 @@ namespace gestLivres
         {
             InitializeComponent();
         }
+
+        private void formAuteurs_Load(object sender, EventArgs e)
+        {
+            RefreshAuteurs();
+            lstAuteurs.DisplayMember = "FullNameAuteur";
+            lstAuteurs.ValueMember = "Id_auteur";
+        }
+
+        private void RefreshAuteurs()
+        {
+            lstAuteurs.Items.Clear();
+
+            foreach (Auteur a in Database.GetAuteur())
+            {
+                lstAuteurs.Items.Add(a);
+            }
+        }
     }
 }

@@ -177,6 +177,7 @@
             Name = "formCategories";
             StartPosition = FormStartPosition.CenterParent;
             Text = "Les catégories de livres";
+            Load += formCategories_Load;
             gbListerCategories.ResumeLayout(false);
             gbModifierSupprimerCategorie.ResumeLayout(false);
             gbModifierSupprimerCategorie.PerformLayout();

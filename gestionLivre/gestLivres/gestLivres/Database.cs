@@ -4,9 +4,9 @@ namespace gestLivres
 {
     internal static class Database
     {
-        private static string connectionString = "server=localhost; database=bd_livres; uid=appBiblio; pwd=Passsw0rd";
+        private static string connectionString = "server=localhost; database=bd_livres; uid=appLivre; pwd=Passsw0rd";
 
-        private static List<Categorie> GetCategorie()
+        internal static List<Categorie> GetCategorie()
         {
             List<Categorie> categories = new();
             using (MySqlConnection sqlConnection = new(connectionString))
@@ -17,8 +17,6 @@ namespace gestLivres
                     using MySqlDataReader reader = myCommand.ExecuteReader();
                     while (reader.Read())
                     {
-                        //personnes.Add(((string)reader["prenom"]) + " " + ((string)reader["nom"]));
-                        //categories.Add($"{(string)reader["isbn"]}{(string)reader["titre"]} {(string)reader["description"]}");
                         categories.Add(
                             new()
                             {
@@ -40,7 +38,7 @@ namespace gestLivres
             using (MySqlConnection sqlConnection = new(connectionString))
             {
                 sqlConnection.Open();
-                using (MySqlCommand myCommand = new(@"select livre.isbn, livre.titre, livre.description , categorie.nom_categorie nom_categorie, auteur.nom, auteur.prenom
+                using (MySqlCommand myCommand = new(@"select id_livre, livre.isbn, livre.titre, livre.description , categorie.nom_categorie nom_categorie, auteur.nom, auteur.prenom
                            from livre
                           inner join categorie on categorie.id_categorie = livre.id_categorie
                           inner join auteur on auteur.id_auteur = livre.id_auteur ;",
@@ -65,18 +63,13 @@ namespace gestLivres
 
                         currentId = (int)reader["id_livre"];
                     }
-                    //if (reader["id_categorie"].GetType() != typeof(DBNull))
-                    //{
-                    //    Id_categorie = (int)reader["id_categorie"]
-
-                    //});
                 }
                 sqlConnection.Close();
             }
             return livres;
         }
 
-        private static List<Auteur> GetAuteur()
+        internal static List<Auteur> GetAuteur()
         {
             List<Auteur> auteurs = new();
             using (MySqlConnection sqlConnection = new(connectionString))

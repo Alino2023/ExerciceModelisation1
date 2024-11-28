@@ -76,26 +76,31 @@ values ('Ouellette', 'Francis'),
  
     
 /*Afficher les livres, leur catégories et les auteurs*/
-select livre.id_livre,  livre.isbn, livre.titre, livre.description, categorie.nom_categorie catégorie, auteur.nom auteur 
+select id_livre, livre.id_livre,  livre.isbn, livre.titre, livre.description, categorie.nom_categorie catégorie, auteur.nom auteur 
 from livre 	
 inner join categorie  on livre.id_categorie = categorie.id_categorie
 inner join auteur on livre.id_auteur = auteur.id_auteur;
 
+/*Afficher tous les auteurs*/
+select * from auteur;
 
+/* Afficher les catégories*/
+
+select * from categorie;
 
 /*creation d'user pour l'application qui va utiliser notre base de données'*/
-create user 'appBiblio@localhost'  identified by 'Passsw0rd';
+create user 'appLivre'@'localhost'  identified by 'Passsw0rd';
 
 /*Attribuer les droits requis*/
-grant select, insert, update, delete on bd_livres.* to 'appBiblio@localhost';
+grant select, insert, update, delete on bd_livres.* to 'appLivre'@'localhost';
 
-/*Voir les droits accordés à l'utilisateur 'appBiblio@localhost'*/
-show grants for 'appBiblio@localhost' ;
+/*Voir les droits accordés à l'utilisateur 'appLivre@localhost'*/
+show grants for 'appLivre'@'localhost' ;
 
 
 
 
 /*creation de la chaine de connexion dans la connexion dans c#*/
- /*private static string connectionString = "server=localhost; database=bd_livres;uid=appBiblio; pwd=Passsw0rd";*/
+ /*private static string connectionString = "server=localhost; database=bd_livres;uid=appLivre; pwd=Passsw0rd";*/
  
  

@@ -177,6 +177,7 @@
             Name = "formAuteurs";
             StartPosition = FormStartPosition.CenterParent;
             Text = "Nos auteurs";
+            Load += formAuteurs_Load;
             gbAjouterLivre.ResumeLayout(false);
             gbAjouterLivre.PerformLayout();
             gbModifierSupprimerLivre.ResumeLayout(false);

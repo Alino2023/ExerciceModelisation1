@@ -20,10 +20,12 @@ namespace gestLivres
 
         private void formLivres_Load(object sender, EventArgs e)
         {
-            Refresh();
+            RefreshLivres();
+            lstLivres.DisplayMember = "Titre";
+            lstLivres.ValueMember = "Id_livre";
         }
 
-        private void Refresh()
+        private void RefreshLivres()
         {
             lstLivres.Items.Clear();
 

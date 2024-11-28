@@ -3,48 +3,52 @@
   "WorkspaceRootPath": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\formcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\formcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\formlivres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\formlivres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\formauteurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\formauteurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\auteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\auteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\formlivres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\formlivres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestlivres\\formlivres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\formlivres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestlivres\\formauteurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\formauteurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestlivres\\formcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\formcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestlivres\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\formauteurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\formauteurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|f:\\modelisation1\\exercicemodelisation1\\gestionlivre\\gestlivres\\gestlivres\\formcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2C0A7762-D46A-4323-BA17-231CA927C31D}|gestLivres\\gestLivres.csproj|solutionrelative:gestlivres\\formcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -71,96 +75,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Livre.cs",
-              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Livre.cs",
-              "RelativeDocumentMoniker": "gestLivres\\Livre.cs",
-              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Livre.cs",
-              "RelativeToolTip": "gestLivres\\Livre.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Title": "Categorie.cs",
+              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Categorie.cs",
+              "RelativeDocumentMoniker": "gestLivres\\Categorie.cs",
+              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Categorie.cs",
+              "RelativeToolTip": "gestLivres\\Categorie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T21:12:31.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Database.cs",
-              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Database.cs",
-              "RelativeDocumentMoniker": "gestLivres\\Database.cs",
-              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Database.cs",
-              "RelativeToolTip": "gestLivres\\Database.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAtwDQAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T20:25:26.981Z",
+              "WhenOpened": "2024-11-28T15:28:14.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "formLivres.cs",
-              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formLivres.cs",
-              "RelativeDocumentMoniker": "gestLivres\\formLivres.cs",
-              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formLivres.cs",
-              "RelativeToolTip": "gestLivres\\formLivres.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAswB8AAAAZAAAA",
+              "Title": "Auteur.cs",
+              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Auteur.cs",
+              "RelativeDocumentMoniker": "gestLivres\\Auteur.cs",
+              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Auteur.cs",
+              "RelativeToolTip": "gestLivres\\Auteur.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T20:24:21.344Z",
+              "WhenOpened": "2024-11-28T15:26:54.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "formMenu.cs",
-              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formMenu.cs",
-              "RelativeDocumentMoniker": "gestLivres\\formMenu.cs",
-              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formMenu.cs",
-              "RelativeToolTip": "gestLivres\\formMenu.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAIAywCIAAAAZAAAA",
+              "Title": "Livre.cs",
+              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Livre.cs",
+              "RelativeDocumentMoniker": "gestLivres\\Livre.cs",
+              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Livre.cs",
+              "RelativeToolTip": "gestLivres\\Livre.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA5wBAAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T20:21:52.256Z",
+              "WhenOpened": "2024-11-28T15:08:20.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "formAuteurs.cs",
+              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formAuteurs.cs",
+              "RelativeDocumentMoniker": "gestLivres\\formAuteurs.cs",
+              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formAuteurs.cs",
+              "RelativeToolTip": "gestLivres\\formAuteurs.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA/wBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:32:36.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "formCategories.cs",
+              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formCategories.cs",
+              "RelativeDocumentMoniker": "gestLivres\\formCategories.cs",
+              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formCategories.cs",
+              "RelativeToolTip": "gestLivres\\formCategories.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAwwBYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:21:18.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Form1.cs",
-              "RelativeDocumentMoniker": "gestLivres\\Form1.cs",
-              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Form1.cs",
-              "RelativeToolTip": "gestLivres\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Title": "Database.cs",
+              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Database.cs",
+              "RelativeDocumentMoniker": "gestLivres\\Database.cs",
+              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Database.cs",
+              "RelativeToolTip": "gestLivres\\Database.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T20:20:32.982Z",
+              "WhenOpened": "2024-11-28T13:57:49.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Form1.cs [Conception]",
-              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Form1.cs",
-              "RelativeDocumentMoniker": "gestLivres\\Form1.cs",
-              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Form1.cs [Conception]",
-              "RelativeToolTip": "gestLivres\\Form1.cs [Conception]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T20:20:30.437Z",
-              "EditorCaption": " [Conception]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Program.cs",
-              "RelativeDocumentMoniker": "gestLivres\\Program.cs",
-              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\Program.cs",
-              "RelativeToolTip": "gestLivres\\Program.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAswBAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T20:19:42.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "formAuteurs.cs [Conception]",
               "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formAuteurs.cs",
               "RelativeDocumentMoniker": "gestLivres\\formAuteurs.cs",
@@ -172,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "formCategories.cs [Conception]",
               "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formCategories.cs",
               "RelativeDocumentMoniker": "gestLivres\\formCategories.cs",
@@ -184,7 +176,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "formLivres.cs",
+              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formLivres.cs",
+              "RelativeDocumentMoniker": "gestLivres\\formLivres.cs",
+              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formLivres.cs",
+              "RelativeToolTip": "gestLivres\\formLivres.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvxcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:57:54.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "formMenu.cs",
+              "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formMenu.cs",
+              "RelativeDocumentMoniker": "gestLivres\\formMenu.cs",
+              "ToolTip": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formMenu.cs",
+              "RelativeToolTip": "gestLivres\\formMenu.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAzwBQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:54:50.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "formLivres.cs [Conception]",
               "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formLivres.cs",
               "RelativeDocumentMoniker": "gestLivres\\formLivres.cs",
@@ -196,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "formMenu.cs [Conception]",
               "DocumentMoniker": "F:\\Modelisation1\\ExerciceModelisation1\\gestionLivre\\gestLivres\\gestLivres\\formMenu.cs",
               "RelativeDocumentMoniker": "gestLivres\\formMenu.cs",
