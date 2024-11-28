@@ -70,5 +70,14 @@ namespace gestLivres
                 RefreshAuteurs();
             }
         }
+
+        private void btnSupprimerAuteur_Click(object sender, EventArgs e)
+        {
+            if (lstAuteurs.SelectedItems != null)
+            {
+                Database.SupprimerAuteur(lstAuteurs.SelectedItem as Auteur);
+            }
+            RefreshAuteurs();
+        }
     }
 }

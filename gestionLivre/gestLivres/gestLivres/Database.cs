@@ -1,4 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
+using Mysqlx.Crud;
+using System.Windows.Forms;
 
 namespace gestLivres
 {
@@ -129,6 +131,23 @@ namespace gestLivres
                     cmd.ExecuteNonQuery();
                 }
 
+                sqlConnection.Close();
+            }
+        }
+
+        internal static void SupprimerAuteur(Auteur auteur)
+        {
+            using (MySqlConnection sqlConnection = new(connectionString))
+            {
+                sqlConnection.Open();
+
+                using (MySqlCommand cmd = new("delete from auteur where auteur.id_auteur = @id1", sqlConnection))
+
+                {
+                    cmd.Parameters.Add(new MySqlParameter("@id1", auteur.Id_Auteur));
+
+                    cmd.ExecuteNonQuery();
+                }
                 sqlConnection.Close();
             }
         }

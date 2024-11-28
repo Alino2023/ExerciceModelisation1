@@ -115,6 +115,7 @@
             btnSupprimerAuteur.TabIndex = 3;
             btnSupprimerAuteur.Text = "Supprimer";
             btnSupprimerAuteur.UseVisualStyleBackColor = false;
+            btnSupprimerAuteur.Click += btnSupprimerAuteur_Click;
             // 
             // btnModifierAuteur
             // 
