@@ -151,5 +151,61 @@ namespace gestLivres
                 sqlConnection.Close();
             }
         }
+
+        internal static void AjoutCategorie(Categorie categorie)
+        {
+            using (MySqlConnection sqlConnection = new(connectionString))
+            {
+                sqlConnection.Open();
+
+                using (MySqlCommand cmd = new("INSERT INTO Categorie (Nom_Categorie) VALUES (@categorie)", sqlConnection))
+                {
+                    cmd.Parameters.Add(new MySqlParameter("@categorie", categorie.Nom_Categorie));
+
+                    cmd.ExecuteNonQuery();
+                }
+
+                sqlConnection.Close();
+            }
+        }
+
+        internal static void ModifierCategorie(Categorie categorie)
+        {
+            using (MySqlConnection sqlConnection = new(connectionString))
+            {
+                sqlConnection.Open();
+
+                using (MySqlCommand cmd = new(@"UPDATE Categorie set
+                                              nom_categorie=@categorie
+
+                                              where Id_Categorie = @id", sqlConnection))
+
+                {
+                    cmd.Parameters.Add(new MySqlParameter("@id", categorie.Id_Categorie));
+                    cmd.Parameters.Add(new MySqlParameter("@categorie", categorie.Nom_Categorie));
+
+                    cmd.ExecuteNonQuery();
+                }
+
+                sqlConnection.Close();
+            }
+        }
+
+        internal static void SupprimerCategorie(Categorie categorie)
+        {
+            using (MySqlConnection sqlConnection = new(connectionString))
+            {
+                sqlConnection.Open();
+
+                using (MySqlCommand cmd = new("delete from categorie where categorie.id_categorie = @id1", sqlConnection))
+
+                {
+                    cmd.Parameters.Add(new MySqlParameter("@id1", categorie.Id_Categorie));
+
+                    cmd.ExecuteNonQuery();
+                }
+                sqlConnection.Close();
+            }
+        }
     }
 }

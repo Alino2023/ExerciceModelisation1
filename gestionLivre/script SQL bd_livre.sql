@@ -42,9 +42,10 @@ description nvarchar(255) not null,
 id_categorie int not null,
 id_auteur int not null,
 foreign key (id_auteur) references auteur (id_auteur) ON DELETE CASCADE,
-foreign key (id_categorie) references categorie (id_categorie),
+foreign key (id_categorie) references categorie (id_categorie) ON DELETE CASCADE,
 primary key (id_livre)
 );
+
 
 
 

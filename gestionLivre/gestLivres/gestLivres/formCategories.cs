@@ -33,5 +33,39 @@ namespace gestLivres
                 lstCategories.Items.Add(c);
             }
         }
+
+        private void btnAjouterCategorie_Click(object sender, EventArgs e)
+        {
+            Categorie categorie = new()
+            {
+                Nom_Categorie = txtAjoutCategorie.Text
+            };
+            Database.AjoutCategorie(categorie);
+            RefreshCategorie();
+        }
+
+        private void btnModifierCategorie_Click(object sender, EventArgs e)
+        {
+            if (lstCategories.SelectedItems != null)
+            {
+                Categorie categorie = (Categorie)lstCategories.SelectedItem;
+                Categorie ModifierUneCategorie = new()
+                {
+                    Id_Categorie = categorie.Id_Categorie,
+                    Nom_Categorie = txtModifCategorie.Text
+                };
+                Database.ModifierCategorie(ModifierUneCategorie);
+                RefreshCategorie();
+            }
+        }
+
+        private void btnSupprimerCategorie_Click(object sender, EventArgs e)
+        {
+            if (lstCategories.SelectedItems != null)
+            {
+                Database.SupprimerCategorie(lstCategories.SelectedItem as Categorie);
+            }
+            RefreshCategorie();
+        }
     }
 }

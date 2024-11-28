@@ -33,11 +33,11 @@
             gbModifierSupprimerCategorie = new GroupBox();
             btnSupprimerCategorie = new Button();
             btnModifierCategorie = new Button();
-            textBox1 = new TextBox();
+            txtModifCategorie = new TextBox();
             label1 = new Label();
             gb = new GroupBox();
             btnAjouterCategorie = new Button();
-            textBox2 = new TextBox();
+            txtAjoutCategorie = new TextBox();
             label2 = new Label();
             gbListerCategories.SuspendLayout();
             gbModifierSupprimerCategorie.SuspendLayout();
@@ -68,7 +68,7 @@
             // 
             gbModifierSupprimerCategorie.Controls.Add(btnSupprimerCategorie);
             gbModifierSupprimerCategorie.Controls.Add(btnModifierCategorie);
-            gbModifierSupprimerCategorie.Controls.Add(textBox1);
+            gbModifierSupprimerCategorie.Controls.Add(txtModifCategorie);
             gbModifierSupprimerCategorie.Controls.Add(label1);
             gbModifierSupprimerCategorie.Font = new Font("Segoe UI", 10F);
             gbModifierSupprimerCategorie.Location = new Point(396, 52);
@@ -90,6 +90,7 @@
             btnSupprimerCategorie.TabIndex = 3;
             btnSupprimerCategorie.Text = "Supprimer";
             btnSupprimerCategorie.UseVisualStyleBackColor = false;
+            btnSupprimerCategorie.Click += btnSupprimerCategorie_Click;
             // 
             // btnModifierCategorie
             // 
@@ -103,14 +104,15 @@
             btnModifierCategorie.TabIndex = 2;
             btnModifierCategorie.Text = "Modifier";
             btnModifierCategorie.UseVisualStyleBackColor = false;
+            btnModifierCategorie.Click += btnModifierCategorie_Click;
             // 
-            // textBox1
+            // txtModifCategorie
             // 
-            textBox1.Font = new Font("Segoe UI", 12F);
-            textBox1.Location = new Point(23, 65);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(334, 34);
-            textBox1.TabIndex = 1;
+            txtModifCategorie.Font = new Font("Segoe UI", 12F);
+            txtModifCategorie.Location = new Point(23, 65);
+            txtModifCategorie.Name = "txtModifCategorie";
+            txtModifCategorie.Size = new Size(334, 34);
+            txtModifCategorie.TabIndex = 1;
             // 
             // label1
             // 
@@ -125,7 +127,7 @@
             // gb
             // 
             gb.Controls.Add(btnAjouterCategorie);
-            gb.Controls.Add(textBox2);
+            gb.Controls.Add(txtAjoutCategorie);
             gb.Controls.Add(label2);
             gb.Font = new Font("Segoe UI", 10F);
             gb.Location = new Point(398, 260);
@@ -147,14 +149,15 @@
             btnAjouterCategorie.TabIndex = 4;
             btnAjouterCategorie.Text = "Ajouter";
             btnAjouterCategorie.UseVisualStyleBackColor = false;
+            btnAjouterCategorie.Click += btnAjouterCategorie_Click;
             // 
-            // textBox2
+            // txtAjoutCategorie
             // 
-            textBox2.Font = new Font("Segoe UI", 12F);
-            textBox2.Location = new Point(21, 59);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(334, 34);
-            textBox2.TabIndex = 3;
+            txtAjoutCategorie.Font = new Font("Segoe UI", 12F);
+            txtAjoutCategorie.Location = new Point(21, 59);
+            txtAjoutCategorie.Name = "txtAjoutCategorie";
+            txtAjoutCategorie.Size = new Size(334, 34);
+            txtAjoutCategorie.TabIndex = 3;
             // 
             // label2
             // 
@@ -193,10 +196,10 @@
         private GroupBox gb;
         private ListBox lstCategories;
         private Button btnModifierCategorie;
-        private TextBox textBox1;
+        private TextBox txtModifCategorie;
         private Label label1;
         private Button btnSupprimerCategorie;
-        private TextBox textBox2;
+        private TextBox txtAjoutCategorie;
         private Label label2;
         private Button btnAjouterCategorie;
     }
