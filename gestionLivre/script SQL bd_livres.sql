@@ -1,20 +1,11 @@
-/* voir les différentes bases de données */
-show databases; 
 
 
-/* Pour supprimer la base de données bd_livres */
-drop database bd_livres;
-
-
-/*Créer la base de données bd_livres*/
 create database bd_livres;
 
-/*Specifier la base de donnees à utiliser pour les requetes ci-après*/
+
 use bd_livres;
 
-/*Voir les tables de la base de donnees specifiée*/
-show tables;
-
+SET default_storage_engine=innodb;
 
 /*creation de la table categorie*/
 create table categorie (
@@ -83,12 +74,7 @@ from livre
 inner join categorie  on livre.id_categorie = categorie.id_categorie
 inner join auteur on livre.id_auteur = auteur.id_auteur;
 
-/*Afficher tous les auteurs*/
-select * from auteur;
 
-/* Afficher les catégories*/
-
-select * from categorie;
 
 /*creation d'user pour l'application qui va utiliser notre base de données'*/
 create user 'appLivre'@'localhost'  identified by 'Passsw0rd';
