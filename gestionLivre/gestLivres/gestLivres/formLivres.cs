@@ -20,6 +20,10 @@ namespace gestLivres
 
         private void formLivres_Load(object sender, EventArgs e)
         {
+            RefreshLivres();
+            lstLivres.DisplayMember = "Titre";
+            lstLivres.ValueMember = "Id_livre";
+
             cbAuteur.DataSource = Database.GetAuteur();
             cbAuteur.DisplayMember = "FullNameAuteur";
             cbAuteur.ValueMember = "Id_Auteur";
@@ -29,11 +33,6 @@ namespace gestLivres
             cbCategorie.DisplayMember = "Nom_Categorie";
             cbCategorie.ValueMember = "Id_Categorie";
             cbCategorie.SelectedIndex = -1;
-
-            lstLivres.DisplayMember = "Titre";
-            lstLivres.ValueMember = "Id_livre";
-
-            RefreshLivres();
         }
 
         private void RefreshLivres()

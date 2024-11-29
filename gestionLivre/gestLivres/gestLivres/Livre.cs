@@ -13,7 +13,7 @@ namespace gestLivres
         public string Titre { get; set; }
         public string Description { get; set; }
 
-        public string InfosLivre
+        public string c
         { get { return Isbn + " " + Titre; } }
 
         public List<Livre> Livres { get; set; } = new();
