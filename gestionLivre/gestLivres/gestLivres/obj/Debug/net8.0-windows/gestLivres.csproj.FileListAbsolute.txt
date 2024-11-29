@@ -67,4 +67,5 @@ F:\Modelisation1\ExerciceModelisation1\gestionLivre\gestLivres\gestLivres\obj\De
 F:\Modelisation1\ExerciceModelisation1\gestionLivre\gestLivres\gestLivres\obj\Debug\net8.0-windows\gestLivres.formLivres.resources
 F:\Modelisation1\ExerciceModelisation1\gestionLivre\gestLivres\gestLivres\obj\Debug\net8.0-windows\gestLivres.formMenu.resources
 F:\Modelisation1\ExerciceModelisation1\gestionLivre\gestLivres\gestLivres\obj\Debug\net8.0-windows\gestLivres.formAuteurs.resources
-F:\Modelisation1\ExerciceModelisation1\gestionLivre\gestLivres\gestLivres\obj\Debug\net8.0-windows\gestLivres.formMAJLivres.resources
+F:\Modelisation1\ExerciceModelisation1\gestionLivre\gestLivres\gestLivres\obj\Debug\net8.0-windows\gestLivres.formModitSupprCategorie.resources
+F:\Modelisation1\ExerciceModelisation1\gestionLivre\gestLivres\gestLivres\obj\Debug\net8.0-windows\gestLivres.formAjoutCategorie.resources

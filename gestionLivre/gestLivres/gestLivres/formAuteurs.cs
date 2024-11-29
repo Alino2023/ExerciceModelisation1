@@ -53,6 +53,7 @@ namespace gestLivres
             };
             Database.AjoutAuteur(auteur);
             RefreshAuteurs();
+            textBoxAuteur.Text = string.Empty;
         }
 
         private void btnModifierAuteur_Click(object sender, EventArgs e)
@@ -68,6 +69,7 @@ namespace gestLivres
                 };
                 Database.ModifierAuteur(ModifierUnAuteur);
                 RefreshAuteurs();
+                txtAuteur.Text = "";
             }
         }
 

@@ -42,6 +42,7 @@ namespace gestLivres
             };
             Database.AjoutCategorie(categorie);
             RefreshCategorie();
+            txtAjoutCategorie.Text = "";
         }
 
         private void btnModifierCategorie_Click(object sender, EventArgs e)

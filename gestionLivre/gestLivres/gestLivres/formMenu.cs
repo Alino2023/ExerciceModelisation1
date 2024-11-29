@@ -44,31 +44,26 @@ namespace gestLivres
 
         private void ajouterToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Form formAuteur = new formAuteurs();
+            Form formAuteur = new formAjoutCategorie();
             formAuteur.ShowDialog();
         }
 
         private void modifierToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Form formAuteur = new formAuteurs();
-            formAuteur.ShowDialog();
-        }
+            Form formAuteur = new formModitSupprCategorie();
 
-        private void modifierToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form formLivre = new formMAJLivres();
-            formLivre.ShowDialog();
+            formAuteur.ShowDialog();
         }
 
         private void ajouterToolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            Form formModLivre = new formMAJLivres();
-            formModLivre.ShowDialog();
+            Form formAuteur = new formAuteurs();
+            formAuteur.ShowDialog();
         }
 
         private void modifierToolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            Form formModLivre = new formMAJLivres();
+            Form formModLivre = new formAuteurs();
             formModLivre.ShowDialog();
         }
     }

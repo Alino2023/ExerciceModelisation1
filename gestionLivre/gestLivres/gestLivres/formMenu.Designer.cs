@@ -38,14 +38,12 @@
             ajouterToolStripMenuItem = new ToolStripMenuItem();
             modifierToolStripMenuItem = new ToolStripMenuItem();
             supprimerToolStripMenuItem = new ToolStripMenuItem();
-            auteursToolStripMenuItem = new ToolStripMenuItem();
-            ajouterToolStripMenuItem1 = new ToolStripMenuItem();
-            modifierToolStripMenuItem1 = new ToolStripMenuItem();
-            supprimerToolStripMenuItem1 = new ToolStripMenuItem();
             catégoriesToolStripMenuItem = new ToolStripMenuItem();
             ajouterToolStripMenuItem2 = new ToolStripMenuItem();
             modifierToolStripMenuItem2 = new ToolStripMenuItem();
-            supprimerToolStripMenuItem2 = new ToolStripMenuItem();
+            auteursToolStripMenuItem = new ToolStripMenuItem();
+            ajouterToolStripMenuItem1 = new ToolStripMenuItem();
+            modifierToolStripMenuItem1 = new ToolStripMenuItem();
             panelMenu.SuspendLayout();
             menuStrip2.SuspendLayout();
             SuspendLayout();
@@ -103,7 +101,7 @@
             // menuStrip2
             // 
             menuStrip2.ImageScalingSize = new Size(20, 20);
-            menuStrip2.Items.AddRange(new ToolStripItem[] { livresToolStripMenuItem, auteursToolStripMenuItem, catégoriesToolStripMenuItem });
+            menuStrip2.Items.AddRange(new ToolStripItem[] { livresToolStripMenuItem, catégoriesToolStripMenuItem, auteursToolStripMenuItem });
             menuStrip2.Location = new Point(0, 0);
             menuStrip2.Name = "menuStrip2";
             menuStrip2.Size = new Size(800, 28);
@@ -129,7 +127,6 @@
             modifierToolStripMenuItem.Name = "modifierToolStripMenuItem";
             modifierToolStripMenuItem.Size = new Size(161, 26);
             modifierToolStripMenuItem.Text = "Modifier";
-            modifierToolStripMenuItem.Click += modifierToolStripMenuItem_Click;
             // 
             // supprimerToolStripMenuItem
             // 
@@ -137,59 +134,47 @@
             supprimerToolStripMenuItem.Size = new Size(161, 26);
             supprimerToolStripMenuItem.Text = "Supprimer";
             // 
-            // auteursToolStripMenuItem
-            // 
-            auteursToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { ajouterToolStripMenuItem1, modifierToolStripMenuItem1, supprimerToolStripMenuItem1 });
-            auteursToolStripMenuItem.Name = "auteursToolStripMenuItem";
-            auteursToolStripMenuItem.Size = new Size(73, 24);
-            auteursToolStripMenuItem.Text = "Auteurs";
-            // 
-            // ajouterToolStripMenuItem1
-            // 
-            ajouterToolStripMenuItem1.Name = "ajouterToolStripMenuItem1";
-            ajouterToolStripMenuItem1.Size = new Size(224, 26);
-            ajouterToolStripMenuItem1.Text = "Ajouter";
-            ajouterToolStripMenuItem1.Click += ajouterToolStripMenuItem1_Click;
-            // 
-            // modifierToolStripMenuItem1
-            // 
-            modifierToolStripMenuItem1.Name = "modifierToolStripMenuItem1";
-            modifierToolStripMenuItem1.Size = new Size(224, 26);
-            modifierToolStripMenuItem1.Text = "Modifier";
-            modifierToolStripMenuItem1.Click += modifierToolStripMenuItem1_Click;
-            // 
-            // supprimerToolStripMenuItem1
-            // 
-            supprimerToolStripMenuItem1.Name = "supprimerToolStripMenuItem1";
-            supprimerToolStripMenuItem1.Size = new Size(224, 26);
-            supprimerToolStripMenuItem1.Text = "Supprimer";
-            // 
             // catégoriesToolStripMenuItem
             // 
-            catégoriesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { ajouterToolStripMenuItem2, modifierToolStripMenuItem2, supprimerToolStripMenuItem2 });
+            catégoriesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { ajouterToolStripMenuItem2, modifierToolStripMenuItem2 });
             catégoriesToolStripMenuItem.Name = "catégoriesToolStripMenuItem";
-            catégoriesToolStripMenuItem.Size = new Size(94, 24);
-            catégoriesToolStripMenuItem.Text = "Catégories";
+            catégoriesToolStripMenuItem.Size = new Size(73, 24);
+            catégoriesToolStripMenuItem.Text = "Auteurs";
             // 
             // ajouterToolStripMenuItem2
             // 
             ajouterToolStripMenuItem2.Name = "ajouterToolStripMenuItem2";
-            ajouterToolStripMenuItem2.Size = new Size(224, 26);
+            ajouterToolStripMenuItem2.Size = new Size(232, 26);
             ajouterToolStripMenuItem2.Text = "Ajouter";
             ajouterToolStripMenuItem2.Click += ajouterToolStripMenuItem2_Click;
             // 
             // modifierToolStripMenuItem2
             // 
             modifierToolStripMenuItem2.Name = "modifierToolStripMenuItem2";
-            modifierToolStripMenuItem2.Size = new Size(224, 26);
-            modifierToolStripMenuItem2.Text = "Modifier";
+            modifierToolStripMenuItem2.Size = new Size(232, 26);
+            modifierToolStripMenuItem2.Text = "Modifier / Supprimer";
             modifierToolStripMenuItem2.Click += modifierToolStripMenuItem2_Click;
             // 
-            // supprimerToolStripMenuItem2
+            // auteursToolStripMenuItem
             // 
-            supprimerToolStripMenuItem2.Name = "supprimerToolStripMenuItem2";
-            supprimerToolStripMenuItem2.Size = new Size(224, 26);
-            supprimerToolStripMenuItem2.Text = "Supprimer";
+            auteursToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { ajouterToolStripMenuItem1, modifierToolStripMenuItem1 });
+            auteursToolStripMenuItem.Name = "auteursToolStripMenuItem";
+            auteursToolStripMenuItem.Size = new Size(94, 24);
+            auteursToolStripMenuItem.Text = "Catégories";
+            // 
+            // ajouterToolStripMenuItem1
+            // 
+            ajouterToolStripMenuItem1.Name = "ajouterToolStripMenuItem1";
+            ajouterToolStripMenuItem1.Size = new Size(232, 26);
+            ajouterToolStripMenuItem1.Text = "Ajouter";
+            ajouterToolStripMenuItem1.Click += ajouterToolStripMenuItem1_Click;
+            // 
+            // modifierToolStripMenuItem1
+            // 
+            modifierToolStripMenuItem1.Name = "modifierToolStripMenuItem1";
+            modifierToolStripMenuItem1.Size = new Size(232, 26);
+            modifierToolStripMenuItem1.Text = "Modifier / Supprimer";
+            modifierToolStripMenuItem1.Click += modifierToolStripMenuItem1_Click;
             // 
             // formMenu
             // 
@@ -226,9 +211,7 @@
         private ToolStripMenuItem catégoriesToolStripMenuItem;
         private ToolStripMenuItem ajouterToolStripMenuItem1;
         private ToolStripMenuItem modifierToolStripMenuItem1;
-        private ToolStripMenuItem supprimerToolStripMenuItem1;
         private ToolStripMenuItem ajouterToolStripMenuItem2;
         private ToolStripMenuItem modifierToolStripMenuItem2;
-        private ToolStripMenuItem supprimerToolStripMenuItem2;
     }
 }
