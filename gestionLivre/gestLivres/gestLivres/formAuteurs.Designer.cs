@@ -85,9 +85,9 @@
             label2.Font = new Font("Segoe UI", 10F);
             label2.Location = new Point(21, 33);
             label2.Name = "label2";
-            label2.Size = new Size(73, 23);
+            label2.Size = new Size(62, 23);
             label2.TabIndex = 2;
-            label2.Text = "Auteur.s";
+            label2.Text = "Auteur";
             // 
             // gbModifierSupprimerLivre
             // 

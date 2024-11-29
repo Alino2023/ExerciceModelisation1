@@ -28,10 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panelMenu = new Panel();
-            btnCategories = new Button();
-            btnAuteurs = new Button();
-            btnLivres = new Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formMenu));
             menuStrip1 = new MenuStrip();
             menuStrip2 = new MenuStrip();
             livresToolStripMenuItem = new ToolStripMenuItem();
@@ -44,57 +41,17 @@
             auteursToolStripMenuItem = new ToolStripMenuItem();
             ajouterToolStripMenuItem1 = new ToolStripMenuItem();
             modifierToolStripMenuItem1 = new ToolStripMenuItem();
-            panelMenu.SuspendLayout();
+            pictureBox1 = new PictureBox();
             menuStrip2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
-            // panelMenu
-            // 
-            panelMenu.BackColor = SystemColors.Window;
-            panelMenu.Controls.Add(btnCategories);
-            panelMenu.Controls.Add(btnAuteurs);
-            panelMenu.Controls.Add(btnLivres);
-            panelMenu.Location = new Point(-1, 91);
-            panelMenu.Name = "panelMenu";
-            panelMenu.Size = new Size(267, 362);
-            panelMenu.TabIndex = 0;
-            // 
-            // btnCategories
-            // 
-            btnCategories.Location = new Point(0, 213);
-            btnCategories.Name = "btnCategories";
-            btnCategories.Size = new Size(267, 56);
-            btnCategories.TabIndex = 2;
-            btnCategories.Text = "Catégories de livres";
-            btnCategories.UseVisualStyleBackColor = true;
-            btnCategories.Click += btnCategories_Click;
-            // 
-            // btnAuteurs
-            // 
-            btnAuteurs.Location = new Point(0, 151);
-            btnAuteurs.Name = "btnAuteurs";
-            btnAuteurs.Size = new Size(267, 56);
-            btnAuteurs.TabIndex = 1;
-            btnAuteurs.Text = "Les Auteurs";
-            btnAuteurs.UseVisualStyleBackColor = true;
-            btnAuteurs.Click += btnAuteurs_Click;
-            // 
-            // btnLivres
-            // 
-            btnLivres.Location = new Point(0, 89);
-            btnLivres.Name = "btnLivres";
-            btnLivres.Size = new Size(267, 56);
-            btnLivres.TabIndex = 0;
-            btnLivres.Text = "Nos Livres";
-            btnLivres.UseVisualStyleBackColor = true;
-            btnLivres.Click += btnLivres_Click;
             // 
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
             menuStrip1.Location = new Point(0, 28);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 24);
+            menuStrip1.Size = new Size(671, 24);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -104,7 +61,7 @@
             menuStrip2.Items.AddRange(new ToolStripItem[] { livresToolStripMenuItem, catégoriesToolStripMenuItem, auteursToolStripMenuItem });
             menuStrip2.Location = new Point(0, 0);
             menuStrip2.Name = "menuStrip2";
-            menuStrip2.Size = new Size(800, 28);
+            menuStrip2.Size = new Size(671, 28);
             menuStrip2.TabIndex = 2;
             menuStrip2.Text = "menuStrip2";
             // 
@@ -176,31 +133,36 @@
             modifierToolStripMenuItem1.Text = "Modifier / Supprimer";
             modifierToolStripMenuItem1.Click += modifierToolStripMenuItem1_Click;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(182, 94);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(359, 312);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 3;
+            pictureBox1.TabStop = false;
+            // 
             // formMenu
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(panelMenu);
+            ClientSize = new Size(671, 450);
+            Controls.Add(pictureBox1);
             Controls.Add(menuStrip1);
             Controls.Add(menuStrip2);
             MainMenuStrip = menuStrip1;
             Name = "formMenu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Accueil";
-            panelMenu.ResumeLayout(false);
             menuStrip2.ResumeLayout(false);
             menuStrip2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Panel panelMenu;
-        private Button btnCategories;
-        private Button btnAuteurs;
-        private Button btnLivres;
         private MenuStrip menuStrip1;
         private MenuStrip menuStrip2;
         private ToolStripMenuItem livresToolStripMenuItem;
@@ -213,5 +175,6 @@
         private ToolStripMenuItem modifierToolStripMenuItem1;
         private ToolStripMenuItem ajouterToolStripMenuItem2;
         private ToolStripMenuItem modifierToolStripMenuItem2;
+        private PictureBox pictureBox1;
     }
 }
